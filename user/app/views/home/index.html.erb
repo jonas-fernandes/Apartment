@@ -1,0 +1,9 @@
+
+
+<h1>Hello</h1>
+
+<%= react_component("App", {
+    logged_in: username_signed_in?,
+    sign_in_route: new_username_session_path,
+    sign_out_route: destroy_username_session_path
+}) %>
